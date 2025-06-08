@@ -28,15 +28,15 @@ const HeroSection: React.FC = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
-            Packaging That Returns to Earth
+            Non-plastic solutions That Returns to Earth
           </h1>
           <p 
             className={`text-xl md:text-2xl text-white/90 mb-8 transition-all duration-1000 delay-300 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
-            Our compostable polybags break down naturally, leaving no microplastics behind. 
-            Join the sustainable packaging revolution.
+            Our compostable bags break down naturally, leaving no microplastics behind. 
+            Join the sustainable non-plastic revolution.
           </p>
           <div 
             className={`flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 transition-all duration-1000 delay-500 ${
