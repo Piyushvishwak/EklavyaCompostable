@@ -4,8 +4,8 @@ import FaqItem from '../components/FaqItem';
 
 const faqs = [
   {
-    question: "What makes your polybags compostable?",
-    answer: "Our polybags are made from plant-based materials like cornstarch, vegetable oils, and compostable polymers that break down completely in industrial composting facilities. They meet international standards for compostability including EN13432 and ASTM D6400."
+    question: "What makes your ags compostable?",
+    answer: "Our Bags are made from plant-based materials like cornstarch, vegetable oils, and compostable polymers that break down completely in industrial composting facilities. They meet international standards for compostability including EN13432 and ASTM D6400."
   },
   {
     question: "How long do the bags take to decompose?",
