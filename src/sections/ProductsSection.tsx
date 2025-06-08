@@ -28,7 +28,7 @@ const products = [
   {
     image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1600',
     title: '2D Pouches',
-    description: 'Versatile packaging solutions for various products.',
+    description: 'Versatile non-plastic solutions for various products.',
     features: [
       'Custom sizes available',
       'Heat-sealable',
@@ -66,7 +66,7 @@ const ProductsSection: React.FC = () => {
       <div className="container mx-auto px-4 md:px-8">
         <SectionTitle
           title="Our Products"
-          subtitle="Complete range of compostable packaging solutions for every need"
+          subtitle="Complete range of compostable non-plastic solutions for every need"
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
