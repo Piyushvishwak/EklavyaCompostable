@@ -140,7 +140,7 @@ const ContactSection: React.FC = () => {
               <div className="mt-8 p-6 bg-emerald-50 rounded-lg">
                 <h3 className="text-lg font-semibold text-emerald-800 mb-2">Request a Sample Pack</h3>
                 <p className="text-gray-700 mb-4">
-                  Want to see and feel our compostable polybags before placing an order? 
+                  Want to see and feel our compostable ags before placing an order? 
                   Request a free sample pack to experience the quality firsthand.
                 </p>
                 <Button variant="secondary">Request Samples</Button>
