@@ -32,7 +32,7 @@ const benefits = [
   {
     icon: Zap,
     title: 'Comparable Performance',
-    description: 'Our bags offer the same strength, clarity and functionality as traditional plastic bags.'
+    description: 'Our bags offer the same strength, clarity, durability, and overall functionality as traditional plastic bags.'
   }
 ];
 
