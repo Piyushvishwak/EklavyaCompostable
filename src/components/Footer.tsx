@@ -61,19 +61,18 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-4">
               Subscribe to our newsletter for the latest product updates and sustainability tips.
             </p>
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-grow px-4 py-2 bg-gray-800 text-white rounded-l-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              />
-              <button
-                type="submit"
-                className="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-r-md transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
+            <form className="max-w-md w-full mx-auto flex flex-col sm:flex-row">
+            <input type="email" placeholder="Your email"
+              className="w-full px-4 py-2 bg-gray-800 text-white rounded-t-md sm:rounded-l-md sm:rounded-tr-none focus:outline-none focus:ring-2 focus:ring-emerald-500"
+            />
+            <button
+              type="submit"
+              className="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 w-full sm:w-auto rounded-b-md sm:rounded-r-md sm:rounded-bl-none transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+
           </div>
         </div>
         
