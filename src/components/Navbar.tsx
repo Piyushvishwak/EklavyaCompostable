@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-black shadow-lg">
+        <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
             <NavLink href="#products" onClick={() => setIsOpen(false)}>Products</NavLink>
             <NavLink href="#benefits" onClick={() => setIsOpen(false)}>Benefits</NavLink>
