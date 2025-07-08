@@ -1,10 +1,15 @@
 import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import ProductCard from '../components/ProductCard';
+import grocery from '../assets/images/grocery.jpeg';
+import garbage from '../assets/images/garbage.jpeg';
+import pouch from '../assets/images/2Dpouch.jpeg';
+import biohazard from '../assets/images/biohazard.jpeg';
+
 
 const products = [
   {
-    image: 'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1600',
+    image: grocery,
     title: 'Grocery & Carry Bags',
     description: 'Eco-friendly shopping bags perfect for retail and daily use.',
     features: [
@@ -15,7 +20,7 @@ const products = [
     ]
   },
   {
-    image: 'https://images.pexels.com/photos/5217682/pexels-photo-5217682.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: garbage,
     title: 'Garbage Bags',
     description: 'Sustainable waste management solutions for homes and businesses.',
     features: [
@@ -26,7 +31,7 @@ const products = [
     ]
   },
   {
-    image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: pouch,
     title: '2D Pouches',
     description: 'Versatile non-plastic solutions for various products.',
     features: [
@@ -37,7 +42,7 @@ const products = [
     ]
   },
   {
-    image: 'https://images.pexels.com/photos/3683108/pexels-photo-3683108.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: biohazard,
     title: 'Bio-hazard Bags',
     description: 'Safe disposal solutions for medical and hazardous waste.',
     features: [
