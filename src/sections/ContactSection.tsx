@@ -121,8 +121,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-1">Email Us</h3>
-                  <p className="text-gray-600">info@eklavyacompostables.com</p>
-                  <p className="text-gray-600">sales@eklavyacompostables.com</p>
+                  <p className="text-gray-600">eklavyaenterprises0@gmail.com</p>
                 </div>
               </div>
               
