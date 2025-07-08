@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        isScrolled ? 'bg-blck shadow-md py-3' : 'bg-black py-5'
       }`}
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 text-white">
             <NavLink href="#products">Products</NavLink>
             <NavLink href="#benefits">Benefits</NavLink>
             <NavLink href="#how-it-works">How It Works</NavLink>
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white-600 focus:outline-none"
+            className="md:hidden text-white focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
