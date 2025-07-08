@@ -5,6 +5,7 @@ import grocery from '../assets/images/grocery.jpeg';
 import garbage from '../assets/images/garbage.jpeg';
 import pouch from '../assets/images/2Dpouch.jpeg';
 import biohazard from '../assets/images/biohazard.jpeg';
+import hospital from '../assets/images/hospital.jpeg';
 
 
 const products = [
@@ -53,7 +54,7 @@ const products = [
     ]
   },
   {
-    image: 'https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: hospital,
     title: 'Hospital Bedsheet Covers',
     description: 'Hygienic and eco-friendly bedding protection.',
     features: [
